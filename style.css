@@ -1,7 +1,4 @@
 
-*{
-	border-color: red;
-}
 body{
 	background-color:#777777;
 	width:960px;
@@ -25,7 +22,13 @@ header, nav {
 	height:45px;
 }
 .mini-container{
-	background-color: #EBEBEB;
+	overflow: auto;
+
+}
+.left, .right{
+	display:inline;
+	float:left;
+	margin: 5px;
 
 }
 section{
@@ -34,6 +37,9 @@ section{
 	width:495px;
 	text-align: center;
 	float:left;
+	margin-bottom: 8px;
+	padding-top: 33px;
+	padding-bottom: 15px;
 }
 article{
 	color:#EBEBEB;
@@ -45,13 +51,19 @@ article{
 .white{
 	background-color:#EBEBEB;
 	color:#777777;
+	width:200px;
+	margin-left:124px;
+	margin-bottom: 12px;
+	padding: 5px;
 }
 .box-4{
 	background-color:#777777;
 	margin-left: 33px; 
-	width:445px;
+	width:425px;
 }
-
+.p-spacing{
+	margin-bottom: 5px;
+}
 .box-5{
 	float:left;
 }
@@ -60,8 +72,10 @@ aside{
 	color: #777777;
 	text-align:center;
 	float:left;
-	width:465px;
-	height:189px;
+	width:444px;
+	height:240px;
+	margin-left: 1px;
+	margin-bottom:8px;
 	
 }
 footer{
@@ -70,4 +84,5 @@ footer{
 	text-align: center;
 	clear:both;
 	height:45px;
+	margin-top: 10px;
 }
